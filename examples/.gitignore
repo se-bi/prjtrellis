@@ -4,3 +4,12 @@
 *_out.config
 *.blif
 
+{picorv32_,soc_}*/*.elf
+{picorv32_,soc_}*/*.hex
+{picorv32_,soc_}*/*.vvp
+{picorv32_,soc_}*/*.vcd
+soc_*/*.bin
+
+#*multiboot/multiboot.{bin,mcs}
+*multiboot/multiboot.bin
+*multiboot/multiboot.mcs
